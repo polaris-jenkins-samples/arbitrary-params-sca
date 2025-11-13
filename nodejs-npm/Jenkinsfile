@@ -18,7 +18,7 @@ pipeline {
             }
         }
 
-        stage("polaris-arbitrary-sast") {
+        stage("polaris-arbitrary-sca") {
             steps {
                 script {
                     dir('nodejs-npm') {
